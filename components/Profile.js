@@ -11,6 +11,10 @@ export default function Profile({ name, avatarUri }) {
 
 const styles = StyleSheet.create({
   profile: {
+    backgroundColor: '#1f2937',
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    borderRadius: 18,
     alignItems: 'center',
     marginBottom: 24,
   },
@@ -20,11 +24,11 @@ const styles = StyleSheet.create({
     borderRadius: 70,
     marginBottom: 16,
     borderWidth: 3,
-    borderColor: '#38bdf8',
+    borderColor: '#60a5fa',
   },
   name: {
     fontSize: 22,
     fontWeight: '600',
-    color: '#f8fafc',
+    color: '#e5edff',
   },
 });

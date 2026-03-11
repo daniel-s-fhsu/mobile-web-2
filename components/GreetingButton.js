@@ -10,10 +10,10 @@ export default function GreetingButton({ onPress, label }) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: '#38bdf8',
+    backgroundColor: '#60a5fa',
     paddingVertical: 12,
     paddingHorizontal: 24,
-    borderRadius: 12,
+    borderRadius: 16,
     elevation: 4,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84,
   },
   buttonText: {
-    color: '#0f172a',
+    color: '#0b1220',
     fontSize: 16,
     fontWeight: '700',
   },
